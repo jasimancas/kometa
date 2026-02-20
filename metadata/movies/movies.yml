@@ -568,7 +568,7 @@ metadata:
   1562:
     title: "28 semanas después"
     url_poster: 
-      https://github.com/jasimancas/kometa-config/raw/main/metadata/movies/assets/1562-28-weeks-later.jpg
+      https://github.com/jasimancas/kometa-config/raw/main/metadata/movies/assets/1562.jpg
   1571:
     title: "La jungla 4.0"
     url_poster: 
@@ -2667,3 +2667,9 @@ metadata:
     title: "Resident Evil: Death Island"
     url_poster: 
       https://github.com/jasimancas/kometa-config/raw/main/metadata/movies/assets/1083862.jpg
+  1100988:
+    url_poster: 
+      https://github.com/jasimancas/kometa-config/raw/main/metadata/movies/assets/1100988.jpg
+  1272837:
+    url_poster: 
+      https://github.com/jasimancas/kometa-config/raw/main/metadata/movies/assets/1272837.jpg
