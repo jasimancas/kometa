@@ -1426,8 +1426,7 @@ metadata:
       https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/72559-g-i-joe-retaliation.jpg
   75656:
     title: "Ahora me ves"
-    url_poster: 
-      https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/75656-now-you-see-me.jpg
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/75656.jpg
   76163:
     title: "Los Mercenarios 2"
     url_poster: 
@@ -1783,8 +1782,7 @@ metadata:
       https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/290859-terminator-dark-fate.jpg
   291805:
     title: "Ahora me ves 2"
-    url_poster: 
-      https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/291805-now-you-see-me-2.jpg
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/291805.jpg
   293167:
     title: "Kong: La isla calavera"
     url_poster: 
@@ -2269,8 +2267,7 @@ metadata:
       https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/505642-black-panther-wakanda-forever.jpg
   507086:
     title: "Jurassic World 3: Dominion"
-    url_poster: 
-      https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/507086-jurassic-world-dominion.jpg
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/507086.jpg
   501170:
     title: "Doctor Sueño"
     url_poster: 
@@ -2661,3 +2658,17 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/710295.jpg
   1062722:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1062722.jpg
+  1035259:
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1035259.jpg
+  425274:
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/425274.jpg
+  475557:
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/475557.jpg
+  533535:
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/533535.jpg
+  889737:
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/889737.jpg
+  9070:
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9070.jpg
+  945961:
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/945961.jpg
