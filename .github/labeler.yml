@@ -1,0 +1,24 @@
+---
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: "**/*.md"
+
+movies:
+  - changed-files:
+      - any-glob-to-any-file: "metadata/movies/**/*"
+
+tv:
+  - changed-files:
+      - any-glob-to-any-file: "metadata/tv/**/*"
+
+playlists:
+  - changed-files:
+      - any-glob-to-any-file: "playlists/**/*"
+
+metadata:
+  - changed-files:
+      - any-glob-to-any-file: "metadata/**/*"
+
+assets:
+  - changed-files:
+      - any-glob-to-any-file: "**/*.jpg"
