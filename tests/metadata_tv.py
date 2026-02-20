@@ -2,9 +2,7 @@ import logging
 import yaml
 import os
 
-url_poster_base = (
-    "https://github.com/jasimancas/kometa-config/raw/main/metadata/tv/assets/"
-)
+url_poster_base = "https://github.com/jasimancas/kometa/raw/main/metadata/tv/assets/"
 file_dir = os.path.dirname(os.path.realpath("__file__"))
 
 

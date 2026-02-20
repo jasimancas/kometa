@@ -4,7 +4,7 @@ from pathlib import Path
 from ruamel.yaml import YAML
 
 OWNER = "jasimancas"
-REPO = "kometa-config"
+REPO = "kometa"
 BRANCH = "main"
 
 ASSETS_DIR = Path("metadata/movies/assets")
