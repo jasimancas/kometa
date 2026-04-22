@@ -4,7 +4,7 @@
 # - on demand (https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/)
 # - at 00:00 every Sunday in anything gets missed with any of the above scenarios
 # For Pull Requests, the images are added to the PR.
-# For other scenarios, a new PR will be opened if any images are compressed.
+# For other scenarios, compressed images are committed directly to `main`.
 
 ---
 name: Compress images
@@ -27,6 +27,9 @@ on:
   schedule:
     - cron: "00 00 * * SUN"
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: calibreapp/image-actions
@@ -44,16 +47,16 @@ jobs:
         uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          # For non-Pull Requests, run in compressOnly mode and we'll PR after.
+          # For non-Pull Requests, run in compressOnly mode and commit directly.
           compressOnly: ${{ github.event_name != 'pull_request' }}
-      - name: Create Pull Request
-        # If it's not a Pull Request then commit any changes as a new PR.
+      - name: Commit and Push to main
+        # If it's not a Pull Request, commit any compressed images directly to main.
         if: |
           github.event_name != 'pull_request' &&
           steps.calibre.outputs.markdown != ''
-        uses: peter-evans/create-pull-request@v6
-        with:
-          title: Auto Compress Images
-          branch-suffix: timestamp
-          commit-message: "🍱 Compress Images"
-          body: ${{ steps.calibre.outputs.markdown }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "🍱 Compress Images"
+          git push origin HEAD:main
