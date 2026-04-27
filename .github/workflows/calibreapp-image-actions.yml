@@ -8,24 +8,12 @@
 
 ---
 name: Compress images
+
 on:
-  pull_request:
-    paths:
-      - "**.jpg"
-      - "**.jpeg"
-      - "**.png"
-      - "**.webp"
-  push:
-    branches:
-      - main
-    paths:
-      - "**.jpg"
-      - "**.jpeg"
-      - "**.png"
-      - "**.webp"
   workflow_dispatch:
   schedule:
-    - cron: "00 00 * * SUN"
+    # Every day at 01:00 (UTC)
+    - cron: "0 1 * * *"
 
 permissions:
   contents: write
@@ -34,29 +22,29 @@ jobs:
   build:
     name: calibreapp/image-actions
     runs-on: ubuntu-latest
-    # Only run on main repo on and PRs that match the main repo.
-    if: |
-      github.repository == 'jasimancas/kometa' &&
-      (github.event_name != 'pull_request' ||
-       github.event.pull_request.head.repo.full_name == github.repository)
+    # Only run on main repo
+    if: github.repository == 'jasimancas/kometa'
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v4
+
       - name: Compress Images
         id: calibre
         uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          # For non-Pull Requests, run in compressOnly mode and commit directly.
-          compressOnly: ${{ github.event_name != 'pull_request' }}
+          # Scheduled/manual runs are not PRs, so compressOnly should be true
+          compressOnly: true
+
       - name: Commit and Push to main
-        # If it's not a Pull Request, commit any compressed images directly to main.
-        if: |
-          github.event_name != 'pull_request' &&
-          steps.calibre.outputs.markdown != ''
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "🍱 Compress Images"
-          git push origin HEAD:main
+          # Commit only if there are changes
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "🍱 Compress Images"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
