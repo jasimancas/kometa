@@ -34,11 +34,10 @@ def run() -> int:
             if not movie_data:
                 logging.error(f"Movie {movie_id} fields are missing")
             else:
+                # title is optional; do not fail if missing
                 title = movie_data.get("title", None)
                 url_poster = movie_data.get("url_poster", None)
 
-                if not title:
-                    logging.error(f"Movie {movie_id} title field is missing")
                 if not url_poster:
                     logging.error(
                         f"Movie {movie_id} - {title} url_poster field is missing"
