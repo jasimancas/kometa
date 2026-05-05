@@ -1,56 +1,78 @@
-name: Sync Kometa tv.yml
+#!/usr/bin/env python3
+import re
+from pathlib import Path
+from ruamel.yaml import YAML
 
-on:
-  push:
-    paths:
-      - "metadata/tv/assets/**"
-      - "scripts/sync_tv_yml.py"
-      - "requirements.txt"
+OWNER = "jasimancas"
+REPO = "kometa"
+BRANCH = "main"
 
-permissions:
-  contents: write
+ASSETS_DIR = Path("metadata/tv/assets")
+YML_PATH = Path("metadata/tv/tv.yml")
 
-concurrency:
-  group: sync-tv-yml-${{ github.ref }}
-  cancel-in-progress: false
+RAW_BASE = f"https://github.com/{OWNER}/{REPO}/raw/{BRANCH}/metadata/tv/assets/"
 
-jobs:
-  sync:
-    runs-on: ubuntu-latest
+yaml = YAML()
+yaml.preserve_quotes = True
+yaml.indent(mapping=2, sequence=4, offset=2)
 
-    steps:
-      - uses: actions/checkout@v4
+# Posters de serie:
+#   1396.jpg
+#   1396-breaking-bad.jpg
+#
+# Posters de temporada:
+#   1396_S01.jpg
+#   1396-breaking-bad_S01.jpg
+IMG_RE = re.compile(
+    r"^(?P<id>\d+)(?:-.+)?(?:_S(?P<season>\d{2}))?\.(jpg|jpeg|png|webp)$",
+    re.IGNORECASE,
+)
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
 
-      - name: Install deps
-        run: pip install -r requirements.txt
+def main():
+    if not ASSETS_DIR.exists():
+        raise SystemExit(f"No existe la carpeta: {ASSETS_DIR}")
 
-      - name: Sync TV YAML
-        run: python scripts/sync_tv_yml.py
+    data = {}
+    if YML_PATH.exists():
+        data = yaml.load(YML_PATH.read_text(encoding="utf-8")) or {}
 
-      - name: Commit changes (if any)
-        run: |
-          set -euo pipefail
+    data.setdefault("metadata", {})
+    metadata = data["metadata"]
 
-          if git diff --quiet; then
-            echo "No changes."
-            exit 0
-          fi
+    for img in sorted(ASSETS_DIR.iterdir()):
+        if not img.is_file():
+            continue
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+        m = IMG_RE.match(img.name)
+        if not m:
+            raise SystemExit(
+                f"Nombre inválido: {img.name}. "
+                "Usa TMDBID-algo.jpg o TMDBID-algo_S01.jpg"
+            )
 
-          git add metadata/tv/tv.yml
-          git commit -m "chore: sync tv.yml from assets"
+        tmdb_id = int(m.group("id"))
+        season = m.group("season")
+        url = RAW_BASE + img.name
 
-          git fetch origin main
-          git rebase origin/main
+        entry = metadata.get(tmdb_id) or {}
 
-          git push origin HEAD:main || (
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
-          )
+        if season:
+            season_num = int(season)
+            entry.setdefault("seasons", {})
+            season_entry = entry["seasons"].get(season_num) or {}
+            season_entry["url_poster"] = url
+            entry["seasons"][season_num] = season_entry
+        else:
+            entry["url_poster"] = url
+
+        metadata[tmdb_id] = entry
+
+    with YML_PATH.open("w", encoding="utf-8") as f:
+        yaml.dump(data, f)
+
+    print("tv.yml actualizado correctamente")
+
+
+if __name__ == "__main__":
+    main()
