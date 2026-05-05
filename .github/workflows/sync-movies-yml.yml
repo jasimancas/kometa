@@ -8,6 +8,11 @@ on:
       - "scripts/sync_movies_yml.py"
       - "requirements.txt"
 
+# Avoid overlapping runs that could race to push to main
+concurrency:
+  group: sync-movies-yml-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -33,8 +38,14 @@ jobs:
             echo "No changes."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Integrate latest remote main to avoid non-fast-forward push failures
+          git fetch origin main
+          git rebase origin/main
+
           git add metadata/movies/movies.yml
           git commit -m "chore: sync movies.yml from assets"
-          git push
+          git push origin HEAD:main
