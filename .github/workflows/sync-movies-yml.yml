@@ -8,13 +8,13 @@ on:
       - "scripts/sync_movies_yml.py"
       - "requirements.txt"
 
-# Avoid overlapping runs that could race to push to main
-concurrency:
-  group: sync-movies-yml-main
-  cancel-in-progress: false
-
 permissions:
   contents: write
+
+# Evita que dos ejecuciones intenten pushear a la vez en la misma rama
+concurrency:
+  group: sync-movies-yml-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -34,6 +34,8 @@ jobs:
 
       - name: Commit changes (if any)
         run: |
+          set -euo pipefail
+
           if git diff --quiet; then
             echo "No changes."
             exit 0
@@ -42,10 +44,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Integrate latest remote main to avoid non-fast-forward push failures
+          git add metadata/movies/movies.yml
+          git commit -m "chore: sync movies.yml from assets"
+
+          # Trae lo último de main y rebasa tu commit encima para evitar non-fast-forward
           git fetch origin main
           git rebase origin/main
 
-          git add metadata/movies/movies.yml
-          git commit -m "chore: sync movies.yml from assets"
-          git push origin HEAD:main
+          # Push; si otra ejecución se adelantó, rebase y reintenta una vez
+          git push origin HEAD:main || (
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          )
