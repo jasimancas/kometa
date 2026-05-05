@@ -1,0 +1,56 @@
+name: Sync Kometa tv.yml
+
+on:
+  push:
+    paths:
+      - "metadata/tv/assets/**"
+      - "scripts/sync_tv_yml.py"
+      - "requirements.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-tv-yml-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Sync TV YAML
+        run: python scripts/sync_tv_yml.py
+
+      - name: Commit changes (if any)
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add metadata/tv/tv.yml
+          git commit -m "chore: sync tv.yml from assets"
+
+          git fetch origin main
+          git rebase origin/main
+
+          git push origin HEAD:main || (
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          )
