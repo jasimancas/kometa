@@ -19,6 +19,8 @@ metadata:
       3:
         url_poster: 
           https://github.com/jasimancas/kometa/raw/main/metadata/tv/assets/366668-bridgerton_S03.jpg
+    url_poster: 
+      https://github.com/jasimancas/kometa/raw/main/metadata/tv/assets/366668-bridgerton_S03.jpg
   367506:
     title: "El señor de los Anillos: Los anillos de poder"
     url_poster: 
@@ -41,3 +43,5 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/tv/assets/361594.jpg
   362472:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/tv/assets/362472.jpg
+  368612:
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/tv/assets/368612.jpg
