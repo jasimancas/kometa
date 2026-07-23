@@ -15,6 +15,7 @@ RAW_BASE = f"https://github.com/{OWNER}/{REPO}/raw/{BRANCH}/metadata/tv/assets/"
 yaml = YAML()
 yaml.preserve_quotes = True
 yaml.indent(mapping=2, sequence=4, offset=2)
+yaml.width = 4096  # evita que corte las URLs largas y deje espacios finales
 
 # Posters de serie:
 #   1396.jpg
@@ -24,7 +25,7 @@ yaml.indent(mapping=2, sequence=4, offset=2)
 #   1396_S01.jpg
 #   1396-breaking-bad_S01.jpg
 IMG_RE = re.compile(
-    r"^(?P<id>\d+)(?:-.+)?(?:_S(?P<season>\d{2}))?\.(jpg|jpeg|png|webp)$",
+    r"^(?P<id>\d+)(?:-.+?)?(?:_S(?P<season>\d{2}))?\.(jpg|jpeg|png|webp)$",
     re.IGNORECASE,
 )
 
