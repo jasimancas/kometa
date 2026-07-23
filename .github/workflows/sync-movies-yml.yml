@@ -49,11 +49,11 @@ jobs:
 
           # Trae lo último de main y rebasa tu commit encima para evitar non-fast-forward
           git fetch origin main
-          git rebase origin/main
+          git rebase -X theirs origin/main
 
           # Push; si otra ejecución se adelantó, rebase y reintenta una vez
           git push origin HEAD:main || (
             git fetch origin main
-            git rebase origin/main
+            git rebase -X theirs origin/main
             git push origin HEAD:main
           )
