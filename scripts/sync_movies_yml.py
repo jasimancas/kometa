@@ -15,6 +15,7 @@ RAW_BASE = f"https://github.com/{OWNER}/{REPO}/raw/{BRANCH}/metadata/movies/asse
 yaml = YAML()
 yaml.preserve_quotes = True
 yaml.indent(mapping=2, sequence=4, offset=2)
+yaml.width = 4096  # evita que corte las URLs largas y deje espacios finales
 
 IMG_RE = re.compile(r"^(?P<id>\d+)(?:-.+)?\.(jpg|jpeg|png|webp)$", re.IGNORECASE)
 
