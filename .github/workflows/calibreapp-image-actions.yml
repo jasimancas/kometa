@@ -30,6 +30,8 @@ jobs:
 
       - name: Resize oversized posters
         run: |
+          sudo apt-get update -y
+          sudo apt-get install -y imagemagick
           find metadata/movies/assets metadata/tv/assets -type f \
             \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) \
             -print0 | xargs -0 mogrify -resize '1000x1500>'
