@@ -28,6 +28,12 @@ jobs:
       - name: Checkout Branch
         uses: actions/checkout@v4
 
+      - name: Resize oversized posters
+        run: |
+          find metadata/movies/assets metadata/tv/assets -type f \
+            \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) \
+            -print0 | xargs -0 mogrify -resize '1000x1500>'
+
       - name: Compress Images
         id: calibre
         uses: calibreapp/image-actions@main
@@ -43,7 +49,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add -A
-            git commit -m "🍱 Compress Images"
+            git commit -m "🍱 Resize & compress images"
             git push origin HEAD:main
           else
             echo "No changes to commit."
