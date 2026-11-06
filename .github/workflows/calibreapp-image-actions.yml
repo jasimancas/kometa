@@ -1,11 +1,24 @@
-# Image Actions will run in the following scenarios:
-# - on push to `main` when files under metadata/*/assets change (new/updated posters)
-# - on demand (https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch/)
-# - daily at 01:00 UTC as a safety net for anything missed
-# Resized/compressed images are committed directly to `main`.
-# Runs are queued (not parallel) via `concurrency`, and the final push retries with
-# rebase if `main` moved while this run was resizing/compressing, so back-to-back
-# uploads don't fail each other with a rejected push.
+# Ajusta las carátulas nuevas a 1000x1500 y las comprime UNA sola vez.
+#
+# Cuándo corre:
+# - en cada push a `main` que añade o cambia archivos en metadata/*/assets
+# - a mano (workflow_dispatch): revisa todas las imágenes, pero solo toca las
+#   que se pasan de tamaño
+#
+# Por qué es así (no volver a la versión antigua):
+# La versión anterior pasaba `mogrify` y calibre por TODAS las imágenes en cada
+# push y cada noche. mogrify vuelve a codificar el JPG aunque no lo redimensione,
+# así que cada pasada reescribía las ~800 carátulas (~185 MB de historial nuevo
+# por pasada, 15 GB acumulados) y las degradaba un poco cada vez.
+#
+# Reglas de esta versión:
+# - Solo mira los archivos añadidos o modificados en el push (o todos, a mano).
+# - Solo vuelve a codificar una imagen si mide más de 1000x1500 o pesa más de
+#   MAX_KB. Una imagen ya procesada cumple ambas cosas, así que nunca se toca
+#   dos veces (idempotente).
+# - Freno: si fuera a modificar más de MAX_FILES imágenes, falla sin hacer commit.
+# - Sin cron: nada se reescribe si nadie sube nada.
+# - Los commits del bot (GITHUB_TOKEN) no disparan otros workflows.
 
 ---
 name: Compress images
@@ -18,9 +31,6 @@ on:
       - "metadata/movies/assets/**"
       - "metadata/tv/assets/**"
   workflow_dispatch:
-  schedule:
-    # Every day at 01:00 (UTC)
-    - cron: "0 1 * * *"
 
 permissions:
   contents: write
@@ -29,55 +39,101 @@ concurrency:
   group: image-compress
   cancel-in-progress: false
 
+env:
+  MAX_W: "1000"
+  MAX_H: "1500"
+  MAX_KB: "600"
+  MAX_FILES: "60"
+  JPEG_QUALITY: "85"
+
 jobs:
   build:
-    name: calibreapp/image-actions
+    name: Resize & compress new posters
     runs-on: ubuntu-latest
-    # Only run on main repo
     if: github.repository == 'jasimancas/kometa'
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Resize oversized posters
+      - name: Install ImageMagick
         run: |
           sudo apt-get update -y
           sudo apt-get install -y imagemagick
-          find metadata/movies/assets metadata/tv/assets -type f \
-            \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) \
-            -print0 | xargs -0 mogrify -resize '1000x1500>'
 
-      - name: Compress Images
-        id: calibre
-        uses: calibreapp/image-actions@main
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          # Scheduled/manual runs are not PRs, so compressOnly should be true
-          compressOnly: true
+      - name: List candidate images
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          pattern='^metadata/(movies|tv)/assets/.*\.(jpe?g|png|webp)$'
+          if [ "$EVENT" = "push" ] && [ -n "$BEFORE" ] && ! printf '%s' "$BEFORE" | grep -qE '^0+$' \
+             && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            git diff --name-only --diff-filter=AM "$BEFORE" "$AFTER" | grep -iE "$pattern" > candidates.txt || true
+          elif [ "$EVENT" = "push" ]; then
+            git diff-tree --no-commit-id --name-only --diff-filter=AM -r "$AFTER" | grep -iE "$pattern" > candidates.txt || true
+          else
+            git ls-files | grep -iE "$pattern" > candidates.txt || true
+          fi
+          echo "Candidatas: $(wc -l < candidates.txt)"
+
+      - name: Resize/compress only what exceeds the limits
+        run: |
+          set -euo pipefail
+          : > touched.txt
+          while IFS= read -r f; do
+            [ -f "$f" ] || continue
+            read -r w h < <(identify -format '%w %h\n' "$f[0]")
+            kb=$(( $(stat -c %s "$f") / 1024 ))
+            if [ "$w" -le "$MAX_W" ] && [ "$h" -le "$MAX_H" ] && [ "$kb" -le "$MAX_KB" ]; then
+              continue
+            fi
+            echo "$f: ${w}x${h}, ${kb} KB -> procesar"
+            echo "$f" >> touched.txt
+          done < candidates.txt
+
+          n=$(wc -l < touched.txt)
+          echo "Imágenes a procesar: $n"
+          if [ "$n" -gt "$MAX_FILES" ]; then
+            echo "Freno: se iban a reescribir $n imágenes (máximo $MAX_FILES). No se toca nada." >&2
+            exit 1
+          fi
+
+          while IFS= read -r f; do
+            case "${f,,}" in
+              *.jpg|*.jpeg)
+                convert "$f[0]" -resize "${MAX_W}x${MAX_H}>" -strip -sampling-factor 4:2:0 \
+                  -interlace JPEG -quality "$JPEG_QUALITY" "$f" ;;
+              *)
+                convert "$f[0]" -resize "${MAX_W}x${MAX_H}>" -strip "$f" ;;
+            esac
+          done < touched.txt
 
       - name: Commit and Push to main
         run: |
-          # Commit only if there are changes
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "No changes to commit."
+          set -euo pipefail
+          if [ ! -s touched.txt ] || git diff --quiet; then
+            echo "Nada que comprimir."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "🍱 Resize & compress images"
+          xargs -d '\n' git add -- < touched.txt
+          git commit -m "🍱 Resize & compress new images"
 
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
               echo "Push correcto (intento $attempt)."
               exit 0
             fi
-
             echo "Push rechazado (intento $attempt/5). main se movió, reintentando con rebase..."
             git fetch origin main
             git rebase origin/main
           done
 
-          echo "No se pudo empujar tras 5 intentos."
+          echo "No se pudo empujar tras 5 intentos." >&2
           exit 1
