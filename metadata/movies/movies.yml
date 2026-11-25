@@ -44333,9 +44333,13 @@ metadata:
   834:
     sort_title: "Underworld 02"
   4232:
+    title: "Scream. Vigila quién llama"
     sort_title: "Scream 01"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/4232.jpg
   4233:
+    title: "Scream 2"
     sort_title: "Scream 02"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/4233.jpg
   9342:
     sort_title: "Zorro 01"
   25961:
@@ -44349,4 +44353,6 @@ metadata:
   533533:
     sort_title: "TRON 03"
   934433:
+    title: "Scream 6"
     sort_title: "Scream 06"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/934433.jpg
