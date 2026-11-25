@@ -821,6 +821,8 @@ metadata:
     title: "Thor"
     sort_title: "Thor 01"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10195.jpg
+  10228:
+    sort_title: "Pokémon 01"
   10400:
     title: "Huracán Carter"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10400.jpg
@@ -848,6 +850,8 @@ metadata:
   10987:
     title: "Halloween VI: La maldición de Michael Myers"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10987.jpg
+  10991:
+    sort_title: "Pokémon 03"
   11026:
     title: "El Exorcista: El comienzo"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/11026.jpg
@@ -938,6 +942,8 @@ metadata:
   12448:
     title: "El jorobado de Notre Dame 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/12448.jpg
+  12599:
+    sort_title: "Pokémon 02"
   12700:
     title: "El exorcista: El comienzo. La versión prohibida"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/12700.jpg
@@ -1047,6 +1053,8 @@ metadata:
   28260:
     title: "El regreso de los muertos vivientes III: Mortal Zombie"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/28260.jpg
+  33875:
+    sort_title: "Pokémon 05"
   34851:
     title: "Predators"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/34851.jpg
@@ -1258,6 +1266,8 @@ metadata:
   87101:
     title: "Terminator 5: Génesis"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/87101.jpg
+  88557:
+    sort_title: "Pokémon 12"
   91314:
     title: "Transformers 4: La era de la extinción"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/91314.jpg
@@ -1297,6 +1307,8 @@ metadata:
   114150:
     title: "Dando la nota"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/114150.jpg
+  115223:
+    sort_title: "Pokémon 13"
   115655:
     title: "El mundo es nuestro"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/115655.jpg
@@ -18796,6 +18808,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/662666.jpg
   662708:
     title: "La película Pokémon: Los secretos de la selva"
+    sort_title: "Pokémon 22"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/662708.jpg
   662841:
     title: "Sacrifice"
@@ -24586,7 +24599,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/38985.jpg
   39057:
     title: "Pokémon: Arceus y la joya de la vida"
-    sort_title: "Pokemon: Diamante y Perla 03"
+    sort_title: "Pokémon 10"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/39057.jpg
   39083:
     title: "Blackjack"
@@ -28408,7 +28421,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/50022.jpg
   50087:
     title: "Pokémon:  Zoroark, el maestro de ilusiones"
-    sort_title: "Pokemon: Diamante y Perla 04"
+    sort_title: "Pokémon 11"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/50087.jpg
   50321:
     title: "Marte necesita madres"
@@ -30543,6 +30556,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/150202.jpg
   150213:
     title: "Pokémon:  Kyurem vs. el espadachín místico"
+    sort_title: "Pokémon 14"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/150213.jpg
   151368:
     title: "Open Windows"
@@ -31303,6 +31317,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/227348.jpg
   227679:
     title: "Pokémon: Genesect y el despertar de una leyenda"
+    sort_title: "Pokémon 15"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/227679.jpg
   227707:
     title: "El secreto del cofre de Midas"
@@ -32688,7 +32703,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/303858.jpg
   303903:
     title: "Pokémon: Diancie y la crisálida de la destrucción"
-    sort_title: "Pokemon: XY 01"
+    sort_title: "Pokémon 16"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/303903.jpg
   304410:
     title: "La familia Bélier"
@@ -33598,7 +33613,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/350060.jpg
   350499:
     title: "Pokémon: Hoopa y un duelo histórico"
-    sort_title: "Pokemon: XY 02"
+    sort_title: "Pokémon 17"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/350499.jpg
   350846:
     title: "El Rey de La Habana"
@@ -34205,7 +34220,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/382189.jpg
   382190:
     title: "Pokémon:  Volcanion y la maravilla mecánica"
-    sort_title: "Pokemon: XY 03"
+    sort_title: "Pokémon 18"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/382190.jpg
   382511:
     title: "Manual de un tacaño"
@@ -35484,6 +35499,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/436830.jpg
   436931:
     title: "La película Pokémon:  ¡Te elijo a ti!"
+    sort_title: "Pokémon 19"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/436931.jpg
   437029:
     title: "Las leyes de la termodinámica"
@@ -37516,6 +37532,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/493922.jpg
   494407:
     title: "La película Pokémon: El poder de todos"
+    sort_title: "Pokémon 20"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/494407.jpg
   494656:
     title: "La Leyenda del Charro Negro"
@@ -38884,6 +38901,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/571675.jpg
   571891:
     title: "Pokémon: Mewtwo contraataca-Evolución"
+    sort_title: "Pokémon 21"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/571891.jpg
   572404:
     title: "Port Authority"
@@ -39844,6 +39862,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/12583.jpg
   12600:
     title: "Pokémon 4Ever"
+    sort_title: "Pokémon 04"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/12600.jpg
   12609:
     title: "¡Socorro, soy un pez!"
@@ -40708,7 +40727,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/16804.jpg
   16808:
     title: "Pokémon Ranger y el Templo del Mar"
-    sort_title: "Pokemon: Generacion avanzada 02"
+    sort_title: "Pokémon 07"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/16808.jpg
   16866:
     title: "Planet 51"
@@ -42011,7 +42030,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/34066.jpg
   34067:
     title: "Pokémon: Lucario y el misterio de Mew"
-    sort_title: "Pokemon: Generacion avanzada 01"
+    sort_title: "Pokémon 06"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/34067.jpg
   34081:
     title: "Ted Bundy"
@@ -42767,7 +42786,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/47218.jpg
   47292:
     title: "Pokémon: Giratina y el defensor de los cielos"
-    sort_title: "Pokemon: Diamante y Perla 02"
+    sort_title: "Pokémon 09"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/47292.jpg
   47327:
     title: "Furia ciega"
@@ -44047,7 +44066,7 @@ metadata:
   9342:
     sort_title: "Zorro 01"
   25961:
-    sort_title: "Pokemon: Diamante y Perla 01"
+    sort_title: "Pokémon 08"
   41436:
     sort_title: "Paranormal Activity 02"
   72571:
