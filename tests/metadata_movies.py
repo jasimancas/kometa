@@ -38,7 +38,8 @@ def run() -> int:
                 title = movie_data.get("title", None)
                 url_poster = movie_data.get("url_poster", None)
 
-                if not url_poster:
+                # entries with only sort_title (no poster) are allowed
+                if not url_poster and not movie_data.get("sort_title"):
                     logging.error(
                         f"Movie {movie_id} - {title} url_poster field is missing"
                     )
