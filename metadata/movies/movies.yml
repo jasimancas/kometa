@@ -284,7 +284,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/583.jpg
   584:
     title: "Fast & Furious 2 (A todo gas 2)"
-    sort_title: "todo gas 02"
+    sort_title: "Fast and Furious 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/584.jpg
   591:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/591.jpg
@@ -901,7 +901,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9610.jpg
   9615:
     title: "Fast & Furious 3 (A todo gas. Tokio Race)"
-    sort_title: "todo gas 03"
+    sort_title: "Fast and Furious 03"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9615.jpg
   9659:
     title: "Mad Max 1: Salvajes de autopista"
@@ -926,7 +926,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9762.jpg
   9799:
     title: "Fast & Furious 1 (A todo gas)"
-    sort_title: "todo gas 01"
+    sort_title: "Fast and Furious 01"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9799.jpg
   10015:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10015.jpg
@@ -954,7 +954,9 @@ metadata:
     sort_title: "Thor 01"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10195.jpg
   10228:
+    title: "Pokémon: La película"
     sort_title: "Pokémon 01"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10228.jpg
   10400:
     title: "Huracán Carter"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10400.jpg
@@ -998,7 +1000,9 @@ metadata:
     title: "Halloween VI: La maldición de Michael Myers"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10987.jpg
   10991:
+    title: "Pokémon 3: El hechizo de los Unown"
     sort_title: "Pokémon 03"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10991.jpg
   11026:
     title: "El Exorcista: El comienzo"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/11026.jpg
@@ -1093,7 +1097,9 @@ metadata:
     title: "El jorobado de Notre Dame 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/12448.jpg
   12599:
+    title: "Pokémon 2: El poder de uno"
     sort_title: "Pokémon 02"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/12599.jpg
   12700:
     title: "El exorcista: El comienzo. La versión prohibida"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/12700.jpg
@@ -1120,7 +1126,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/13648.jpg
   13804:
     title: "Fast & Furious 4 (Aun mas rápido)"
-    sort_title: "todo gas 04"
+    sort_title: "Fast and Furious 04"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/13804.jpg
   14069:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/14069.jpg
@@ -1219,7 +1225,9 @@ metadata:
     title: "El regreso de los muertos vivientes III: Mortal Zombie"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/28260.jpg
   33875:
+    title: "Héroes Pokémon"
     sort_title: "Pokémon 05"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/33875.jpg
   34851:
     title: "Predators"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/34851.jpg
@@ -1332,7 +1340,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/50393.jpg
   51497:
     title: "Fast & Furious 5"
-    sort_title: "todo gas 05"
+    sort_title: "Fast and Furious 05"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/51497.jpg
   53182:
     title: "300: El origen de un imperio"
@@ -1433,7 +1441,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/82702.jpg
   82992:
     title: "Fast & Furious 6"
-    sort_title: "todo gas 06"
+    sort_title: "Fast and Furious 06"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/82992.jpg
   83533:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/83533.jpg
@@ -1441,7 +1449,9 @@ metadata:
     title: "Terminator 5: Génesis"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/87101.jpg
   88557:
+    title: "Pokémon Blanco: Victini y Zekrom"
     sort_title: "Pokémon 12"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/88557.jpg
   91314:
     title: "Transformers 4: La era de la extinción"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/91314.jpg
@@ -1485,7 +1495,9 @@ metadata:
     title: "Dando la nota"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/114150.jpg
   115223:
+    title: "Pokémon Negro: Victini y Reshiram"
     sort_title: "Pokémon 13"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/115223.jpg
   115655:
     title: "El mundo es nuestro"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/115655.jpg
@@ -1574,7 +1586,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/167032.jpg
   168259:
     title: "Fast & Furious 7"
-    sort_title: "todo gas 07"
+    sort_title: "Fast and Furious 07"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/168259.jpg
   173897:
     title: "Resident Evil 6: El capítulo final"
@@ -1828,7 +1840,7 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/337170.jpg
   337339:
     title: "Fast & Furious 8"
-    sort_title: "todo gas 08"
+    sort_title: "Fast and Furious 08"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/337339.jpg
   338762:
     title: "Bloodshot"
@@ -1916,15 +1928,15 @@ metadata:
     title: "Deadpool 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/383498.jpg
   384018:
-    sort_title: "todo gas 09"
+    sort_title: "Fast and Furious 08.5"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/384018.jpg
   385128:
     title: "Fast & Furious 9"
-    sort_title: "todo gas 10"
+    sort_title: "Fast and Furious 09"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/385128.jpg
   385687:
     title: "Fast & Furious X"
-    sort_title: "todo gas 11"
+    sort_title: "Fast and Furious 10"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/385687.jpg
   390043:
     title: "El otro guardaespaldas"
@@ -2616,7 +2628,6 @@ metadata:
   8856:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/8856.jpg
   1656:
-    sort_title: "Zorro 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1656.jpg
   718789:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/718789.jpg
@@ -44329,9 +44340,13 @@ metadata:
     title: "¿Quién dice que es fácil?"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/118199.jpg
   97:
+    title: "TRON"
     sort_title: "TRON 01"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/97.jpg
   834:
+    title: "Underworld: Evolution"
     sort_title: "Underworld 02"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/834.jpg
   4232:
     title: "Scream. Vigila quién llama"
     sort_title: "Scream 01"
@@ -44341,17 +44356,28 @@ metadata:
     sort_title: "Scream 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/4233.jpg
   9342:
-    sort_title: "Zorro 01"
+    title: "La máscara del Zorro"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9342.jpg
   25961:
+    title: "Pokémon:  El desafío de Darkrai"
     sort_title: "Pokémon 08"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/25961.jpg
   41436:
+    title: "Paranormal Activity 2"
     sort_title: "Paranormal Activity 02"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/41436.jpg
   72571:
+    title: "Paranormal Activity 3"
     sort_title: "Paranormal Activity 03"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/72571.jpg
   82990:
+    title: "Paranormal Activity 4"
     sort_title: "Paranormal Activity 04"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/82990.jpg
   533533:
+    title: "Tron: Ares"
     sort_title: "TRON 03"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/533533.jpg
   934433:
     title: "Scream 6"
     sort_title: "Scream 06"
