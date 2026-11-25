@@ -7,6 +7,9 @@ metadata:
     title: "Buscando a Nemo"
     sort_title: "Buscando a Nemo 01"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/12.jpg
+  13:
+    title: "Forrest Gump"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/13.jpg
   14:
     title: "American Beauty"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/14.jpg
@@ -35,6 +38,9 @@ metadata:
     title: "Indiana Jones y el templo maldito"
     sort_title: "Indiana Jones 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/87.jpg
+  88:
+    title: "Dirty Dancing"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/88.jpg
   89:
     title: "Indiana Jones y la última cruzada"
     sort_title: "Indiana Jones 03"
@@ -60,6 +66,9 @@ metadata:
   122:
     title: "El señor de los anillos 3: El retorno del rey"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/122.jpg
+  128:
+    title: "La princesa Mononoke"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/128.jpg
   137:
     title: "Atrapado en el tiempo"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/137.jpg
@@ -137,6 +146,9 @@ metadata:
     title: "Star Trek X: Némesis"
     sort_title: "star_trek_1_10"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/201.jpg
+  207:
+    title: "El club de los poetas muertos"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/207.jpg
   214:
     title: "SAW III"
     sort_title: "Saw 03"
@@ -161,6 +173,9 @@ metadata:
   242:
     title: "El padrino. Parte III"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/242.jpg
+  251:
+    title: "Ghost (Más allá del amor)"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/251.jpg
   253:
     title: "James Bond: Vive y deja morir"
     sort_title: "James Bond 08"
@@ -226,6 +241,9 @@ metadata:
   429:
     title: "El bueno, el feo y el malo"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/429.jpg
+  433:
+    title: "Mary Poppins"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/433.jpg
   440:
     title: "Aliens vs. Predators 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/440.jpg
@@ -235,6 +253,9 @@ metadata:
   534:
     title: "Terminator 4: Salvation"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/534.jpg
+  550:
+    title: "El club de la lucha"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/550.jpg
   557:
     title: "Spider-Man"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/557.jpg
@@ -249,12 +270,33 @@ metadata:
   562:
     title: "Jungla de Cristal"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/562.jpg
+  578:
+    title: "Tiburón"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/578.jpg
+  579:
+    title: "Tiburón 2"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/579.jpg
+  580:
+    title: "Tiburón 4: La venganza"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/580.jpg
+  583:
+    title: "La vida de Brian"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/583.jpg
   584:
     title: "Fast & Furious 2 (A todo gas 2)"
     sort_title: "todo gas 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/584.jpg
   591:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/591.jpg
+  597:
+    title: "Titanic"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/597.jpg
+  600:
+    title: "La chaqueta metálica"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/600.jpg
+  602:
+    title: "Independence Day"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/602.jpg
   603:
     title: "Matrix"
     sort_title: "Matrix 01"
@@ -296,6 +338,9 @@ metadata:
     title: "SAW IV"
     sort_title: "Saw 04"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/663.jpg
+  664:
+    title: "Twister"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/664.jpg
   667:
     title: "James Bond: Sólo se vive dos veces"
     sort_title: "James Bond 05"
@@ -327,6 +372,9 @@ metadata:
   679:
     title: "Aliens: el regreso"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/679.jpg
+  680:
+    title: "Pulp Fiction"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/680.jpg
   681:
     title: "James Bond: Diamantes para la eternidad"
     sort_title: "James Bond 07"
@@ -335,6 +383,9 @@ metadata:
     title: "James Bond: El hombre de la pistola de oro"
     sort_title: "James Bond 09"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/682.jpg
+  688:
+    title: "Los puentes de Madison"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/688.jpg
   691:
     title: "James Bond: La espía que me amó"
     sort_title: "James Bond 10"
@@ -374,6 +425,12 @@ metadata:
     title: "James Bond: El mañana nunca muere"
     sort_title: "James Bond 19"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/714.jpg
+  744:
+    title: "Top Gun: Ídolos del aire"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/744.jpg
+  745:
+    title: "El sexto sentido"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/745.jpg
   767:
     title: "Harry Potter y el príncipe mestizo"
     sort_title: "Harry Potter 06"
@@ -394,16 +451,34 @@ metadata:
   818:
     title: "Austin Powers en Miembro de Oro"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/818.jpg
+  841:
+    title: "Dune"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/841.jpg
   855:
     title: "Black Hawk derribado"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/855.jpg
+  857:
+    title: "Salvar al soldado Ryan"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/857.jpg
+  862:
+    title: "Toy Story"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/862.jpg
+  863:
+    title: "Toy Story 2: Los juguetes vuelven a la carga"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/863.jpg
   871:
     title: "El planeta de los simios"
     sort_title: "planeta de los simios (Original) 01"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/871.jpg
+  879:
+    title: "Hook (El capitán Garfio)"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/879.jpg
   881:
     title: "Algunos hombres buenos"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/881.jpg
+  888:
+    title: "Los Picapiedra"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/888.jpg
   920:
     title: "Cars"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/920.jpg
@@ -413,6 +488,9 @@ metadata:
   928:
     title: "Gremlins 2: La nueva generación"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/928.jpg
+  929:
+    title: "Godzilla"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/929.jpg
   941:
     title: "Arma Letal"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/941.jpg
@@ -504,6 +582,12 @@ metadata:
   1577:
     title: "Resident Evil 2: Apocalipsis"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1577.jpg
+  1634:
+    title: "Liberad a Willy"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1634.jpg
+  1637:
+    title: "Speed: Máxima potencia"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1637.jpg
   1647:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1647.jpg
   1648:
@@ -512,6 +596,9 @@ metadata:
   1649:
     title: "El alucinante viaje de Bill y Ted"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1649.jpg
+  1669:
+    title: "La caza del Octubre Rojo"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1669.jpg
   1685:
     title: "El planeta de los simios: Regreso al planeta de los simios"
     sort_title: "planeta de los simios (Original) 02"
@@ -547,6 +634,9 @@ metadata:
   1865:
     title: "Piratas del Caribe 4: En mareas misteriosas"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1865.jpg
+  1885:
+    title: "Karate Kid, el momento de la verdad"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1885.jpg
   1891:
     title: "Star Wars - Ep. 5: El imperio contraataca"
     sort_title: "La guerra de las galaxias 05"
@@ -584,6 +674,9 @@ metadata:
   1996:
     title: "Lara Croft: Tomb Raider 2. La cuna de la vida"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1996.jpg
+  2005:
+    title: "Sister Act (Una monja de cuidado)"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/2005.jpg
   2059:
     title: "La búsqueda"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/2059.jpg
@@ -605,6 +698,9 @@ metadata:
   2295:
     title: "Clerks II"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/2295.jpg
+  2300:
+    title: "Space Jam"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/2300.jpg
   2454:
     title: "Las crónicas de Narnia 2: El príncipe Caspian"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/2454.jpg
@@ -626,6 +722,9 @@ metadata:
   2770:
     title: "American Pie 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/2770.jpg
+  2898:
+    title: "Mejor... imposible"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/2898.jpg
   2907:
     title: "La familia Addams"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/2907.jpg
@@ -659,6 +758,12 @@ metadata:
   5255:
     title: "Polar Express"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/5255.jpg
+  6114:
+    title: "Drácula de Bram Stoker"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/6114.jpg
+  6279:
+    title: "Sister Act 2: De vuelta al convento"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/6279.jpg
   6466:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/6466.jpg
   6477:
@@ -690,6 +795,9 @@ metadata:
   8373:
     title: "Transformers 2: La venganza de los caídos"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/8373.jpg
+  8392:
+    title: "Mi vecino Totoro"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/8392.jpg
   8408:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/8408.jpg
   8536:
@@ -701,6 +809,9 @@ metadata:
   8810:
     title: "Mad Max 2: El guerrero de la carretera"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/8810.jpg
+  8844:
+    title: "Jumanji"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/8844.jpg
   8914:
     title: "Deep Blue Sea"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/8914.jpg
@@ -717,6 +828,9 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/8978.jpg
   9070:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9070.jpg
+  9073:
+    title: "Liberad a Willy 2"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9073.jpg
   9273:
     title: "Ace Ventura: Operación África"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9273.jpg
@@ -726,11 +840,17 @@ metadata:
   9291:
     title: "El clan de los rompehuesos"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9291.jpg
+  9313:
+    title: "El hombre de la máscara de hierro"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9313.jpg
   9319:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9319.jpg
   9323:
     title: "Ghost in the Shell"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9323.jpg
+  9331:
+    title: "Peligro inminente"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9331.jpg
   9334:
     title: "El rey escorpión"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9334.jpg
@@ -743,12 +863,18 @@ metadata:
   9358:
     title: "Destino Final 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9358.jpg
+  9361:
+    title: "El último mohicano"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9361.jpg
   9381:
     title: "Babylon"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9381.jpg
   9387:
     title: "Conan, el bárbaro"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9387.jpg
+  9479:
+    title: "Pesadilla antes de Navidad"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9479.jpg
   9488:
     title: "Spy Kids 2: La isla de los sueños perdidos"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9488.jpg
@@ -795,6 +921,9 @@ metadata:
   9759:
     title: "Cellular"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9759.jpg
+  9762:
+    title: "Bailando (Step Up)"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/9762.jpg
   9799:
     title: "Fast & Furious 1 (A todo gas)"
     sort_title: "todo gas 01"
@@ -806,6 +935,9 @@ metadata:
   10054:
     title: "Spy Kids"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10054.jpg
+  10057:
+    title: "Los tres mosqueteros"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10057.jpg
   10138:
     title: "Iron Man 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10138.jpg
@@ -826,6 +958,12 @@ metadata:
   10400:
     title: "Huracán Carter"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10400.jpg
+  10495:
+    title: "Karate Kid III. El desafío final"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10495.jpg
+  10515:
+    title: "El castillo en el cielo"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10515.jpg
   10528:
     title: "Sherlock Holmes"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10528.jpg
@@ -840,10 +978,19 @@ metadata:
   10676:
     title: "Halloween III: El día de la bruja"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10676.jpg
+  10681:
+    title: "WALL·E: Batallón de limpieza"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10681.jpg
   10764:
     title: "James Bond: Quantum of Solace"
     sort_title: "James Bond 23"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10764.jpg
+  10882:
+    title: "La bella durmiente"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10882.jpg
+  10895:
+    title: "Pinocho"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10895.jpg
   10925:
     title: "El regreso de los muertos vivientes"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/10925.jpg
@@ -867,6 +1014,9 @@ metadata:
   11187:
     title: "Muñeco diabólico 3"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/11187.jpg
+  11231:
+    title: "El nuevo Karate Kid"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/11231.jpg
   11238:
     title: "Aladdin y el rey de los ladrones"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/11238.jpg
@@ -974,6 +1124,9 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/13804.jpg
   14069:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/14069.jpg
+  14442:
+    title: "Hechizada"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/14442.jpg
   14869:
     title: "G.I. Joe"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/14869.jpg
@@ -985,6 +1138,9 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/15092.jpg
   15137:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/15137.jpg
+  15283:
+    title: "Pompoko"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/15283.jpg
   15338:
     title: "Ace Ventura Jr.: Detective de mascotas"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/15338.jpg
@@ -996,10 +1152,16 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/15969.jpg
   16996:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/16996.jpg
+  17692:
+    title: "Tiburón 3"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/17692.jpg
   18491:
     title: "Neon Genesis Evangelion: The End of Evangelion"
     sort_title: "Evangelion 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/18491.jpg
+  18519:
+    title: "Liberad a Willy 3: El rescate"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/18519.jpg
   18785:
     title: "Resacón en Las Vegas"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/18785.jpg
@@ -1016,6 +1178,9 @@ metadata:
     title: "Gru. Mi villano favorito"
     sort_title: "Gru, mi villano favorito 01"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/20352.jpg
+  21057:
+    title: "Puedo escuchar el mar"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/21057.jpg
   21832:
     title: "Neon Genesis Evangelion: Death Rebirth"
     sort_title: "Evangelion 01"
@@ -1101,10 +1266,16 @@ metadata:
     title: "James Bond: Nunca digas nunca jamás"
     sort_title: "James Bond 14"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/36670.jpg
+  37165:
+    title: "El show de Truman"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/37165.jpg
   37724:
     title: "James Bond: Skyfall"
     sort_title: "James Bond 24"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/37724.jpg
+  37797:
+    title: "Susurros del corazón"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/37797.jpg
   37950:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/37950.jpg
   38322:
@@ -1189,6 +1360,9 @@ metadata:
   56292:
     title: "Misión imposible 4: Protocolo fantasma"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/56292.jpg
+  56590:
+    title: "Superman viaja al sol"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/56590.jpg
   57158:
     title: "El hobbit 2: La desolación de Smaug"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/57158.jpg
@@ -1280,6 +1454,9 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/93456.jpg
   96721:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/96721.jpg
+  98566:
+    title: "Ninja Turtles"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/98566.jpg
   99861:
     title: "Vengadores: la era de Ultron"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/99861.jpg
@@ -1613,6 +1790,9 @@ metadata:
   327418:
     title: "Batman Unlimited: Instinto animal"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/327418.jpg
+  329996:
+    title: "Dumbo"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/329996.jpg
   330457:
     title: "Frozen II"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/330457.jpg
@@ -1680,6 +1860,9 @@ metadata:
   345887:
     title: "The Equalizer 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/345887.jpg
+  346364:
+    title: "It (Eso)"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/346364.jpg
   346910:
     title: "Predator"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/346910.jpg
@@ -1717,6 +1900,9 @@ metadata:
     title: "Godzilla: Rey de los monstruos"
     sort_title: "Godzilla 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/373571.jpg
+  378064:
+    title: "A Silent Voice"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/378064.jpg
   378106:
     title: "Digimon Adventure tri. 3: Confesión"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/378106.jpg
@@ -1769,6 +1955,9 @@ metadata:
   402431:
     sort_title: "Wicked 01"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/402431.jpg
+  402900:
+    title: "Ocean's 8"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/402900.jpg
   404368:
     title: "Ralph rompe Internet"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/404368.jpg
@@ -1793,6 +1982,9 @@ metadata:
   411802:
     title: "Batman Unlimited: Máquinas vs. Monstruos"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/411802.jpg
+  412656:
+    title: "Chaos Walking"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/412656.jpg
   413644:
     title: "El hijo de Bigfoot"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/413644.jpg
@@ -1805,6 +1997,9 @@ metadata:
   419430:
     title: "Déjame salir"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/419430.jpg
+  420814:
+    title: "Christopher Robin"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/420814.jpg
   422347:
     title: "Digimon Adventure tri. 4: Pérdida"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/422347.jpg
@@ -1829,6 +2024,9 @@ metadata:
   426285:
     title: "Fullmetal Alchemist"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/426285.jpg
+  428078:
+    title: "Mortal Engines"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/428078.jpg
   429351:
     title: "12 valientes"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/429351.jpg
@@ -1839,6 +2037,9 @@ metadata:
   431259:
     title: "Escape Room"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/431259.jpg
+  436120:
+    title: "Lu Over the Wall"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/436120.jpg
   436270:
     title: "Black Adam"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/436270.jpg
@@ -1854,6 +2055,9 @@ metadata:
   440021:
     title: "Feliz dia de tu muerte"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/440021.jpg
+  441130:
+    title: "Wolfwalkers"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/441130.jpg
   447332:
     title: "Un lugar tranquilo"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/447332.jpg
@@ -1880,6 +2084,9 @@ metadata:
     title: "Angry Birds 2: La película"
     sort_title: "Angry Birds 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/454640.jpg
+  454992:
+    title: "El espía que me plantó"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/454992.jpg
   456929:
     title: "Campeones"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/456929.jpg
@@ -1911,12 +2118,18 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/470114.jpg
   475557:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/475557.jpg
+  479455:
+    title: "Men In Black: International"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/479455.jpg
   480530:
     title: "Creed II"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/480530.jpg
   481760:
     title: "Digimon Adventure tri. 6: Futuro"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/481760.jpg
+  489999:
+    title: "Searching..."
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/489999.jpg
   491584:
     title: "Burning"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/491584.jpg
@@ -1959,9 +2172,21 @@ metadata:
   507086:
     title: "Jurassic World 3: Dominion"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/507086.jpg
+  508439:
+    title: "Onward"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/508439.jpg
+  508943:
+    title: "Luca"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/508943.jpg
+  508947:
+    title: "Red"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/508947.jpg
   512196:
     title: "Feliz dia de tu muerte 2"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/512196.jpg
+  513310:
+    title: "Muere otra vez"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/513310.jpg
   514207:
     title: "Attraction 2: Invasión"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/514207.jpg
@@ -2005,18 +2230,27 @@ metadata:
   536115:
     title: "Godzilla 3: El devorador de planetas"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/536115.jpg
+  537055:
+    title: "Wonder Woman: Linaje"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/537055.jpg
   537056:
     title: "Batman Hush"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/537056.jpg
   537915:
     title: "After: Aquí empieza todo"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/537915.jpg
+  539972:
+    title: "Kraven the Hunter"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/539972.jpg
   545611:
     title: "Todo a la vez en todas partes"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/545611.jpg
   556803:
     title: "Cambio de princesa"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/556803.jpg
+  558449:
+    title: "Gladiator II"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/558449.jpg
   565770:
     title: "Blue Beetle"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/565770.jpg
@@ -2067,6 +2301,9 @@ metadata:
   606234:
     title: "Archive"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/606234.jpg
+  609242:
+    title: "El robo del siglo"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/609242.jpg
   609681:
     title: "The Marvels"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/609681.jpg
@@ -2082,6 +2319,9 @@ metadata:
   614933:
     title: "Atlas"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/614933.jpg
+  615115:
+    title: "Los secretos que ocultamos"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/615115.jpg
   616037:
     title: "Thor: Love and Thunder"
     sort_title: "Thor 04"
@@ -2089,6 +2329,12 @@ metadata:
   616820:
     title: "Halloween XI: Halloween. El final"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/616820.jpg
+  618344:
+    title: "Liga de la Justicia Oscura: La Guerra Apokolips"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/618344.jpg
+  618354:
+    title: "Superman: El hombre del mañana"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/618354.jpg
   624860:
     title: "Matrix Resurrections"
     sort_title: "Matrix 04"
@@ -2219,9 +2465,15 @@ metadata:
   829560:
     title: "365 días más"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/829560.jpg
+  833425:
+    title: "En la tormenta"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/833425.jpg
   840464:
     sort_title: "Greenland 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/840464.jpg
+  845781:
+    title: "Red One"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/845781.jpg
   848326:
     title: "Rebel Moon - Parte 1: La niña del fuego"
     sort_title: "Rebel Moon 01"
@@ -2247,6 +2499,9 @@ metadata:
   932420:
     title: "Código 8: Renegados (Parte 2)"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/932420.jpg
+  933016:
+    title: "S"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/933016.jpg
   939243:
     sort_title: "Sonic 03"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/939243.jpg
@@ -2276,8 +2531,14 @@ metadata:
   967941:
     sort_title: "Wicked 02"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/967941.jpg
+  975120:
+    title: "Padre no hay más que uno 3"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/975120.jpg
   1007757:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1007757.jpg
+  1011477:
+    title: "Karate Kid: Legends"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1011477.jpg
   1011985:
     title: "Kung Fu Panda 4"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1011985.jpg
@@ -2300,6 +2561,12 @@ metadata:
     title: "Resident Evil: Death Island"
     sort_title: "Resident Evil: Animaciones 04"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1083862.jpg
+  1087891:
+    title: "Amateur"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1087891.jpg
+  1100099:
+    title: "Vivir el momento"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1100099.jpg
   1100988:
     sort_title: "28 03"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1100988.jpg
@@ -2315,6 +2582,9 @@ metadata:
   1272837:
     sort_title: "28 04"
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1272837.jpg
+  1281331:
+    title: "El Precio de la Red"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1281331.jpg
   1290417:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1290417.jpg
   1297842:
@@ -2382,6 +2652,9 @@ metadata:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/687163.jpg
   1226863:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1226863.jpg
+  1368337:
+    title: "La Odisea"
+    url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1368337.jpg
   1370123:
     url_poster: https://github.com/jasimancas/kometa/raw/main/metadata/movies/assets/1370123.jpg
   1217584:
