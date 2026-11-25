@@ -40,8 +40,7 @@ def run() -> int:
                 url_poster = tv_data.get("url_poster", None)
                 seasons = tv_data.get("seasons", None)
 
-                if not title:
-                    logging.error(f"TV Show {tv_id} title field is missing")
+                # title is optional; do not fail if missing
                 if not url_poster:
                     logging.error(
                         f"TV Show {tv_id} - {title} url_poster field is missing"
